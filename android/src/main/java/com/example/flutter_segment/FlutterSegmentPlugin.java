@@ -184,6 +184,8 @@ public class FlutterSegmentPlugin extends FlutterApplication implements MethodCa
       this.disable(call, result);
     } else if (call.method.equals("enable")) {
       this.enable(call, result);
+    } else if (call.method.equals("flush")) {
+      this.flush(call, result);
     } else {
       result.notImplemented();
     }
@@ -348,6 +350,15 @@ public class FlutterSegmentPlugin extends FlutterApplication implements MethodCa
   private void enable(MethodCall call, Result result) {
     try {
       Analytics.with(this.applicationContext).optOut(false);
+      result.success(true);
+    } catch (Exception e) {
+      result.error("FlutterSegmentException", e.getLocalizedMessage(), null);
+    }
+  }
+
+  private void flush(MethodCall call, Result result) {
+    try {
+      Analytics.with(this.applicationContext).flush();
       result.success(true);
     } catch (Exception e) {
       result.error("FlutterSegmentException", e.getLocalizedMessage(), null);
