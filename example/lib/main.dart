@@ -30,7 +30,7 @@ Future<void> main() async {
   Segment.setContext({
     'device': {
       'token': 'testing',
-    }
+    },
   });
 
   runApp(MyApp());

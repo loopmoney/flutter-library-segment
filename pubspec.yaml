@@ -7,7 +7,7 @@ issue_tracker: https://github.com/claimsforce-gmbh/flutter-segment/issues
 documentation: https://github.com/claimsforce-gmbh/flutter-segment#readme
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: ">=2.12.0 <4.0.0"
   flutter: ">=1.12.13+hotfix.4"
 
 dependencies:
@@ -17,11 +17,10 @@ dependencies:
     sdk: flutter
   meta: ^1.8.0
 
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  lint: 1.6.0
+  lint: ^2.1.2
 
 flutter:
   plugin:
