@@ -3,24 +3,24 @@ PODS:
     - AnalyticsConnector (~> 1.0.0)
   - Analytics (4.1.6)
   - AnalyticsConnector (1.0.1)
-  - AppsFlyerFramework (6.9.1):
-    - AppsFlyerFramework/Main (= 6.9.1)
-  - AppsFlyerFramework/Main (6.9.1)
+  - AppsFlyerFramework (6.10.1):
+    - AppsFlyerFramework/Main (= 6.10.1)
+  - AppsFlyerFramework/Main (6.10.1)
   - Flutter (1.0.0)
   - flutter_segment (3.12.1):
     - Analytics (= 4.1.6)
     - Flutter
     - Segment-Amplitude (= 3.3.2)
-    - segment-appsflyer-ios (= 6.9.1)
+    - segment-appsflyer-ios (= 6.10.1)
   - Segment-Amplitude (3.3.2):
     - Amplitude (~> 8.3)
     - Analytics
-  - segment-appsflyer-ios (6.9.1):
+  - segment-appsflyer-ios (6.10.1):
     - Analytics
-    - segment-appsflyer-ios/Main (= 6.9.1)
-  - segment-appsflyer-ios/Main (6.9.1):
+    - segment-appsflyer-ios/Main (= 6.10.1)
+  - segment-appsflyer-ios/Main (6.10.1):
     - Analytics
-    - AppsFlyerFramework (= 6.9.1)
+    - AppsFlyerFramework (= 6.10.1)
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
@@ -45,12 +45,12 @@ SPEC CHECKSUMS:
   Amplitude: 4daad8eb8193b15353221dfd96c52220367cb3e8
   Analytics: eefe524436f904b8bb3f8c8c3425280e43b34efc
   AnalyticsConnector: eccd7e1cd3dd18e6bd09ac2506e37d4ed43ba3f4
-  AppsFlyerFramework: dc9aa675faa8e1a2ed40fb295d3c5408ee2b972a
+  AppsFlyerFramework: 88a6eed37ad52bcee4ad74232efa8e22809d06c9
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
-  flutter_segment: 8ee2a7ab438ea47f6b5eddcadd6c2c91159dffa5
+  flutter_segment: e2ba99bc9208f0b35eea80d29043489f62b16680
   Segment-Amplitude: 6c1e59c8c278a21029ba7a6a788fcb31b9233a2c
-  segment-appsflyer-ios: ddaa1da2fb63480a4766a68032f0011f4fd771a1
+  segment-appsflyer-ios: 98124c817857be032697c92f613be97404a4c330
 
 PODFILE CHECKSUM: 9ae1252a315aaf76477de027d056482cf2fff45d
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.12.1
